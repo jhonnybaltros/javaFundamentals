@@ -2,37 +2,38 @@ package fundamentos;
 
 public class PrimitiveTypes {
 	public static void main(String[] args) {
-		//Informação do funcionário
+		//Informaï¿½ï¿½o do funcionï¿½rio
 		
 		
-		// Tipos numéricos inteiros 		
-		byte anosDeEmpresa = 23; //é o menor deles usar em numeros pequenos
+		// Tipos numï¿½ricos inteiros 		
+		byte anosDeEmpresa = 23; //ï¿½ o menor deles usar em numeros pequenos
 		short numeroDeVoos = 542; // maior um pouco que o byte
 		int id = 56789;
 		long pontosAcumulados = 3_134_845_223L; //L indica o tipo 
 		
-		//Tipos numéricos reais
+		//Tipos numï¿½ricos reais
 		float salario = 11_445.44F; // pode usar o _ para facilitar 
-		//a vizualização
+		//a vizualizaï¿½ï¿½o
 		double vendasAcumuladas = 2_991_797_103.01;
 		
 		//Tipo booleano
 		boolean estaDeFerias = false;  //true
 			
 		//Tipo Caractere
-		char status = 'A'; // só aceita uma letra e precisa do ''
+		char status = 'A'; // sï¿½ aceita uma letra e precisa do ''
+		System.out.println(status);
 		
 		//Dias de empresa
 		System.out.println(anosDeEmpresa * 365);
 		
-		//Número de viagens
+		//Nï¿½mero de viagens
 		System.out.println(numeroDeVoos / 2);
 		
 		//Pontos por real
 		System.out.println(pontosAcumulados / vendasAcumuladas);
 	
 		System.out.println(id + ": ganha ->" + salario);
-		System.out.println("Férias? " + estaDeFerias);
+		System.out.println("Fï¿½rias? " + estaDeFerias);
 	
 	}
 }
