@@ -1,4 +1,4 @@
-package Exercícios;
+package exercises;
 
 public class javaATM {
 	public static void main(String[] args) {
